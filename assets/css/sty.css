@@ -15,13 +15,14 @@ body {
 /* Container */
 .container {
     width: 100%;
-    margin: auto;
-    height: auto;
-	min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
     background-color: #0083A4;	
 	background: url(../images/bcg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    position: relative;
 }
 
 .center {
@@ -59,9 +60,9 @@ header {
 }
 
 .content {
-    position: relative;
-	left: 0;
-    top: 0;
+    position: absolute;
+    left: 150px;
+    top: 201px;
 	color: white;
 	font-size: 20px;
 	}
