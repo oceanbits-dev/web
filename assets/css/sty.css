@@ -9,8 +9,8 @@ body {
 	margin-left: 0px;
 	font-style: normal;
 	font-weight: 200;
-	  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+	overflow-y: auto; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 /* Container */
 .container {
